@@ -24,6 +24,7 @@
 (require 'ui)
 (require 'packages)
 (require 'usability)
+(require 'web)
 (require 'clojure)
 
 (provide 'init)
