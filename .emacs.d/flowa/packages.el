@@ -13,4 +13,13 @@
   :config
   (global-undo-tree-mode))
 
+(use-package auto-complete
+  :ensure t
+  :config
+  (ac-config-default))
+
+(use-package flycheck
+  :ensure t
+  :init (global-flycheck-mode))
+
 (provide 'packages)

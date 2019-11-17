@@ -52,4 +52,13 @@
 ;; Desktop save mode
 (desktop-save-mode 1)
 
+;; Savehist mode
+(savehist-mode 1)
+
+;; reload config
+(defun reload ()
+  "Reloads the emacs conf file(s)"
+  (interactive)
+  (load-file (expand-file-name user-init-file)))
+
 (provide 'usability)

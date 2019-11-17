@@ -7,3 +7,7 @@
 /.emacs.d/.emacs.desktop
 /.emacs.d/.emacs.desktop.lock
 /.emacs.d/auto-save-list/**
+/.emacs.d/ac-comphist.dat
+/.emacs.d/history
+/.emacs.d/custom.el~
+/.emacs.d/transient/

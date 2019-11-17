@@ -26,5 +26,6 @@
 (require 'usability)
 (require 'web)
 (require 'clojure)
+(require 'magit)
 
 (provide 'init)
