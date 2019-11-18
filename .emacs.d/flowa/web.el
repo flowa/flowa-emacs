@@ -7,7 +7,11 @@
   (add-to-list 'auto-mode-alist '("\\.as[cp]x\\'" . web-mode))
   (add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
   (add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
-  (add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
-  (add-to-list 'auto-mode-alist '("\\.hbl\\'" . web-mode)))
+  (add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode)))
+
+(use-package handlebars-mode
+  :ensure t
+  :config
+    (add-to-list 'auto-mode-alist '("\\.hbs\\'" . handlebars-mode)))
 
 (provide 'web)
