@@ -11,3 +11,4 @@
 /.emacs.d/history
 /.emacs.d/custom.el~
 /.emacs.d/transient/
+/.emacs.d/projectile-bookmarks.eld
