@@ -1,6 +1,9 @@
 (ido-mode 1)
 (ido-everywhere 1)
 
+(use-package buffer-move
+  :ensure t)
+
 ;; IDO for M-x
 (global-set-key
      "\M-x"
