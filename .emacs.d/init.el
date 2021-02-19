@@ -1,4 +1,5 @@
 (setq gnutls-algorithm-priority "NORMAL:-VERS-TLS1.3")
+(setq load-path (cons "~/.personal-emacs" load-path))
 
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/flowa"))
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/flowa/vendor"))
@@ -27,5 +28,12 @@
 (require 'web)
 (require 'clojure)
 (require 'magit)
+(require 'terraform)
+(require 'jenkins)
+
+(setq javascript-indent-level 2)
+(setq js-indent-level 2)
+
 
 (provide 'init)
+;;; init.el ends here

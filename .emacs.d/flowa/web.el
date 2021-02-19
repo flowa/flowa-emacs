@@ -14,4 +14,14 @@
   :config
     (add-to-list 'auto-mode-alist '("\\.hbs\\'" . handlebars-mode)))
 
+(use-package js-auto-format-mode
+  :ensure t
+  :config
+  (add-hook 'js-mode-hook #'js-auto-format-mode))
+
+(use-package add-node-modules-path
+  :ensure t
+  :config
+  (add-hook 'js-mode-hook #'add-node-modules-path))
+
 (provide 'web)

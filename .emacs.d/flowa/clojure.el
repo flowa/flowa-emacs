@@ -1,5 +1,10 @@
+(use-package flycheck-clj-kondo
+  :ensure t)
+
 (use-package clojure-mode
-             :ensure t)
+  :ensure t
+  :config
+  (require 'flycheck-clj-kondo))
 
 (use-package paredit
              :ensure t
