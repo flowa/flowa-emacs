@@ -1,10 +1,16 @@
 (use-package flycheck-clj-kondo
   :ensure t)
 
+(use-package yasnippet
+  :ensure t)
+
 (use-package clojure-mode
   :ensure t
+  :init
+  (setq clojure-indent-style "always-indent")
   :config
-  (require 'flycheck-clj-kondo))
+  (require 'flycheck-clj-kondo)
+  (setq cider-clojure-cli-global-options "-A:env/test"))
 
 (use-package paredit
              :ensure t
@@ -30,4 +36,5 @@
 (add-hook 'clojure-mode-hook #'show-paren-mode)
 (setq show-paren-delay 0)
 
-(provide 'clojure)
+(provide 'flowa-clojure)
+

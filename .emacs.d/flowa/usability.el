@@ -1,3 +1,6 @@
+;; For C-m to work
+(define-key input-decode-map [?\C-m] [C-m])
+
 (ido-mode 1)
 (ido-everywhere 1)
 

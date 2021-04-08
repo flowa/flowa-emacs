@@ -26,10 +26,11 @@
 (require 'packages)
 (require 'usability)
 (require 'web)
-(require 'clojure)
-(require 'magit)
+(require 'flowa-clojure)
+(require 'flowa-magit)
 (require 'terraform)
 (require 'jenkins)
+(require 'flowa-go)
 
 (setq javascript-indent-level 2)
 (setq js-indent-level 2)
