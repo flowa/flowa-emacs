@@ -39,6 +39,7 @@
 (global-set-key (kbd "C-.") 'enlarge-window-horizontally)
 (global-set-key (kbd "C-,") 'shrink-window-horizontally)
 
+
 ;; Revert buffer easily
 (global-set-key (kbd "C-c r") 'revert-buffer)
 
@@ -51,6 +52,18 @@
 
 ;; duplicates line C-c d
 (global-set-key (kbd "C-c d") 'duplicate-line)
+
+;; --------------------------
+;; Better defaults from Helm
+;; --------------------------
+
+;; Show visual kill-ring
+(define-key global-map (kbd "M-y") 'helm-show-kill-ring)
+
+;; Better visual M-x
+(define-key global-map (kbd "M-x") 'helm-M-x)
+
+
 
 ;; Enable switching between windows with s-<arrow-keys>
 (windmove-default-keybindings)
