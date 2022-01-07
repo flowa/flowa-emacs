@@ -27,6 +27,7 @@
 (require 'usability)
 (require 'web)
 (require 'flowa-clojure)
+(require 'flowa-elixir)
 (require 'flowa-magit)
 (require 'terraform)
 (require 'jenkins)
