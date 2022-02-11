@@ -27,14 +27,15 @@
 (require 'usability)
 (require 'web)
 (require 'flowa-clojure)
+(require 'flowa-elixir)
 (require 'flowa-magit)
 (require 'terraform)
 (require 'jenkins)
 (require 'flowa-go)
+(require 'flowa-mac)
 
 (setq javascript-indent-level 2)
 (setq js-indent-level 2)
-
 
 (provide 'init)
 ;;; init.el ends here
