@@ -8,8 +8,8 @@
 
 (require 'package)
 (setq package-enable-at-startup nil)
-(setq package-archives '(("gnu" . "https://elpa.gnu.org/packages/")
-                         ("melpa" . "https://melpa.org/packages/")))
+(setq package-archives '(("melpa" . "https://melpa.org/packages/")
+			 ("gnu" . "https://elpa.gnu.org/packages/")))
 
 (package-initialize)
 
@@ -36,6 +36,7 @@
 
 (setq javascript-indent-level 2)
 (setq js-indent-level 2)
+
 
 (provide 'init)
 ;;; init.el ends here
